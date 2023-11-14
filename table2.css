@@ -1,1 +1,37 @@
+table, td, th {
+    border-bottom: 20px;
+    border-collapse: collapse;
+    border-color: rgb(204, 33, 33);
+}
 
+table{
+    max-width: 80%;
+}
+
+table,td,th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+thead{
+    color: white;
+    background-color: rgb(17, 255, 0);
+}
+tbody:nth-child(even){
+    background-color: rgb(211, 211, 211);
+    color: white;
+}
+tbody:nth-child(odd):hover{
+    background-color: rgb(211, 211, 211);
+    color: white;
+}
+tbody:nth-child(even):hover{
+    background-color: white;
+    color: black;
+}
+.fa-xmark{
+    color: red;
+}
+.fa-check{
+    color: green;
+}
